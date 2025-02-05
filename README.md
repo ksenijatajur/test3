@@ -1,7 +1,7 @@
 For Windows:
 1. VS code
-2. Create virtual environment by python -m venv venv
-3. Activate environment .\venv\Scripts\activate.ps1 
+2. Create virtual environment by python -m venv <name>
+3. Activate environment .\<name>\Scripts\activate
 4. If not possible go to windows start menu - type powershell and run it as administrator
 5. type pip  -  and then  A (all)
 6. GO to 3 again - check terminal has (venv) in command 
