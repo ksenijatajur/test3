@@ -7,8 +7,10 @@ For Windows:
 6. GO to 3 again - check terminal has (venv) in command 
 7. pip install selenium
 8. pip install behave
-9. on bottom right corner select interpritour
-10. check venv path in settings - search for venv and add path
+9. pip install webdriver_manager
+10. pip install selenium webdriver_manager
+11. on bottom right corner select interpritour if needed
+12. check venv path in settings - search for venv and add path
 
 Remarks:
 if in powershell behave is not working then run it in debug mode first
@@ -19,8 +21,11 @@ How to run a test:
 2. all tests at once: behave
 
 For MAC/Linux
-1. sudo apt install python3-pip
-2. python get-pip.py
-3. pip install selenium
-4. pip install behave
+1. sudo apt update && sudo apt install -y python3 python3-pip python3-venv
+2. python3 -m venv <name>
+3. source <name>/bin/activate 
+4. pip install selenium
+5. pip install behave
+6. sudo apt install -y google-chrome-stable
+7. pip install chromedriver-autoinstaller 
 
